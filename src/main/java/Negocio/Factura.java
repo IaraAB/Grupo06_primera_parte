@@ -8,7 +8,7 @@ import Datos.PersonaJuridica;
 public class Factura implements Cloneable{
 	private ArrayList<Contrato> contratos;
 	private Abonado abonado;
-	private double totalFinal,total,cambio;
+	private double totalFinal,total,cambio;/**clon de factura*/
 	public Factura(Abonado abonado, ArrayList<Contrato> contrataciones) {
 	       
 		this.abonado = abonado;
