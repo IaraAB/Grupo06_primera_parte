@@ -8,8 +8,8 @@ public abstract class Abonado {
 	
 	private String nombre;
     private int dni;
-    private ArrayList<Domicilio> domicilios; /*lista de domicilios si el abonado tiene varios domicilios*/
-    private ArrayList<Contrato> contrataciones;/*un contrato por cada domicilio*/
+    private ArrayList<Domicilio> domicilios; /**lista de domicilios si el abonado tiene varios domicilios*/
+    private ArrayList<Contrato> contrataciones;/**un contrato por cada domicilio*/
 
     public Abonado(String nombre, int dni) {
         
