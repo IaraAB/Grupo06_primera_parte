@@ -2,6 +2,7 @@ package Negocio;
 
 public class PromDorada extends Promocion{
 	
+
 	@Override
 	public void Descuento(Contrato contratacion){
 		double valorFinal;

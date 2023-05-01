@@ -1,7 +1,15 @@
 package Negocio;
 
-public abstract class Pago implements Contrato {
+import java.util.ArrayList;
+
+import Datos.Abonado;
+
+public abstract class Pago extends Factura {
 	
+	public Pago(Abonado abonado, ArrayList<Contrato> contrataciones) {
+		super(abonado, contrataciones);
+	}
+
 	private Factura factura;
 	private double cambiaCosto;
 

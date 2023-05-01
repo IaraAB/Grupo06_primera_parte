@@ -5,10 +5,11 @@ import Datos.Abonado;
 import Datos.PersonaJuridica;
 
 
-public class Factura implements Cloneable{
+public abstract class Factura implements Cloneable{
 	private ArrayList<Contrato> contratos;
 	private Abonado abonado;
-	private double totalFinal,total,cambio;/**clon de factura*/
+	private double totalFinal,total,cambio;
+	
 	public Factura(Abonado abonado, ArrayList<Contrato> contrataciones) {
 	       
 		this.abonado = abonado;
@@ -44,7 +45,7 @@ public class Factura implements Cloneable{
 		
 		this.contratos.remove(contrato);
 	}
-	/*total factura*/
+	
 	public void setTotal() {
 		
 		double suma=0;

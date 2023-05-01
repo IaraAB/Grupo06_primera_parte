@@ -1,5 +1,5 @@
 package Negocio;
-/** actualiza objeto tipo contrato*/
+
 public abstract class DecoAgregados implements Contrato{
 	
 	private Contratacion contratacion;
