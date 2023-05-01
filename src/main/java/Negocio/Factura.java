@@ -44,7 +44,7 @@ public class Factura implements Cloneable{
 		
 		this.contratos.remove(contrato);
 	}
-	//total factura
+	/*total factura*/
 	public void setTotal() {
 		
 		double suma=0;
